@@ -61,7 +61,7 @@ E2b is an operating system for AI agents, that is, a set of tools, APIs, and clo
 
 
 ## [Agentia](https://github.com/retrychx/agentia)
-A zero-runtime-dependency declarative agent framework in TypeScript. Build agents with 4 decorators (`@Tool`, `@Skill`, `@SubAgent`, `@Prompt`), dependency injection, and a built-in dev panel with real-time trace streaming. Every invariant is registered, mutation-batteried, and tracked in a guard registry.
+A zero-runtime-dependency declarative agent framework in TypeScript. Build agents with 4 decorators (`@Tool`, `@Skill`, `@SubAgent`, `@Prompt`), dependency injection, and a built-in dev panel with real-time trace streaming. Every invariant must be registered, mutation-batteried, and tracked in a guard registry.
 
 <details>
 
@@ -70,11 +70,11 @@ A zero-runtime-dependency declarative agent framework in TypeScript. Build agent
 - **Zero runtime dependencies** — core ships with no npm dependencies, not even `zod` or `reflect-metadata`
 - **Built-in dev panel** — `agentia dev` launches a local inspector with real-time traces, capability narrowing, and run abort
 - **Observable by design** — OpenTelemetry-compatible traces, metrics, and structured events
-- **Guard-driven development** — 58 registered invariants, each validated with mutation batteries; "tests that always pass" are treated as bugs
+- **Guard-driven development** — 50+ registered invariants, each validated with mutation batteries; "tests that always pass" are treated as bugs
 
 ### Links
 - [GitHub](https://github.com/retrychx/agentia)
-- [npm](https://www.npmjs.com/package/agentia)
+- [npm](https://www.npmjs.com/package/@migor/agentia)
 </details>
 
 ## [AgentOps](https://www.agentops.ai/)
